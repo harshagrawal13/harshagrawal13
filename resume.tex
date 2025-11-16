@@ -29,8 +29,6 @@
 \begin{document}
 \name{Harsh Agrawal}
 \tagline{<designing proteins>}
-% Add Profile Picture here
-% \photo{3.3cm}{profile.jpg}
 
 \personalinfo{
     % \homepage{atom51.com}
@@ -39,8 +37,9 @@
     \twitter{https://x.com/harshag1312}
 }
 
+% Maybe I should add my current experience here.
 \skillsinfo{
-    \code{Machine Learning, Computational Biology, Medicine, and cooking great pasta.}
+    \code{ML Engineering, Protein Design, Computational Biology.}
 }
 \begin{fullwidth}
     \makecvheader
@@ -56,7 +55,7 @@
         \dimexpr1pt-\baselineskip
     }
     \raggedright{
-        \cvsection{Research}
+        \cvsection{Personal Projects}
         \cvevent{\textbf{JESPR} - Energy Based Modelling for Proteins}{}{  May 2023 - December 2023}{}
         \begin{itemize}
             \item Devised and implemented a contrastive learning approach for the pre-training of foundational protein models, aimed at learning high-level semantic representations between sequence and structural spaces to facilitate bi-directional mapping.
@@ -74,25 +73,26 @@
             \item Also Designed a simple Risk-assessment tool for Pancreatic Cancer using etiological risk factors by factoring their respective relative-risk (RR) values obtained via independent studies.
         \end{itemize}
 
+        \divider
+
+        \cvevent{\textbf{MineNow} - The Gawler Challenge}{}{\\ Apr 2020 - Jul 2020}{}
+        \begin{itemize}
+            \item The Gawler Challenge was a global online competition from the Government of South Australia to find mineralization using Machine Learning.
+            \item Created three separate machine learning models to predict novel mineralized sites in the Gawler region of South Australia using the existing geo-physical and geo-chemical data-sets. A total of ~300,000 new mineralized points were predicted along with their size and predicted ore/mineral.
+            \item Code: \href{https://github.com/harshagrawal13/Gawler-Unearthed}{github.com/harshagrawal13/Gawler-Unearthed}
+        \end{itemize}
+
         \cvsection{Achievements}
         \begin{itemize}
-            \cvitem{{Rise Global Winner 2021}}{July 2022}{Selected as one of the 100 global winners by the Rhodes Trust and Schmidt Futures. A post-secondary academic scholarship and an invitation to a residential summit were provided.},
+            \cvitem{\href{https://www.rhodeshouse.ox.ac.uk/about/rise/}{\textbf{Rise Global Winner 2021}}}{July 2022}{Selected as one of the 100 global winners for one of the largest high-school scholarships in the world by the Rhodes Trust and Schmidt Futures.}
 
-            \cvitem{{Bal Shakti Puraskar Recipient 2020}}{Jan 2020}{Highest honor bestowed to an Indian below 18 by the \textbf{President of India} at the President's House.}
+            \cvitem{{Bal Shakti Puraskar Recipient 2020}}{Jan 2020}{Highest honor bestowed to an Indian below 18 by the \textbf{President of India} at the President's House. Awarded for my work on Cancer-eX.}
 
-            \cvitem{Global Teen Leader 2020}{Jan 2020}{Selected as one of the 35 teens all around the world by Three Dot Dash to participate at the Virtual Just Peace Summit 2020.}
+            \cvitem{Global Teen Leader 2020}{Jan 2020}{Selected as one of the 35 teens all around the world by Three Dot Dash to participate at the Virtual Just Peace Summit 2020. Was part of a youth delegation to speak at the World Economic Forum 2024 in Davos, Switzerland.}
 
-            \cvitem{Gold Medal, Genius Olympiad}{June 2020}{Won gold medal in the category of sciences at one of the largest high-school interdisciplinary competitions. It witnessed participation from ~1600 exhibits from ~80 countries.}
-
-            \cvitem{Regeneron ISEF Finalist}{May 2020}{Qualified as one of the 20 team India finalists for ISEF 2020. The competition was canceled due to the pandemic.}
+            \cvitem{Gold Medal, Genius Olympiad}{June 2020}{Won in the category of sciences at one of the largest high-school interdisciplinary competitions. It witnessed participation from ~1600 exhibits from ~80 countries.}
 
             \cvitem{Regional Finalist, Google Science Fair}{May 2019}{Selected as one of the top 100 exhibits all around the world at the Google Science Fair.}
-
-            \cvitem{Third Award, Spark Teen Accelerator Program}{June 2020}{Won third award globally (+ USD 1500) for CANCER-EX along with acceptance to their accelerator program.}
-
-            \cvitem{Grand Award at IRIS Nationals}{Jan 2020}{Granted in the category of biochemistry at the biggest science fair in the country.}
-
-            \cvitem{CSIR Innovation Award}{Oct 2020}{Highest research honor bestowed to an Indian under 18 by the Science \& Technology Minister of India.}
 
         \end{itemize}
 
@@ -103,29 +103,30 @@
 
 \cvevent{Masters in Engineering}{Imperial College London}{October 2022 - Present}{}
 \begin{itemize}
-    \item Pursuing a combined Bachelors + Masters (4 years) degree in Molecular Bioengineering. Tuition + living + travel \textbf{completed sponsored} by RISE scholarship.
+    \item Pursuing a Bachelor's + Master's (4 years) in Molecular Bioengineering. Fully sponsored by the \textbf{RISE scholarship}.
     \item Recipient of the Department Scholarship of \textbf{1000 GBP} per year.
+    \item Key modules include Advanced Synthetic Biology, Tissue Engineering, Biomaterials, Reinforcement Learning, Thermodynamics, etc.
 \end{itemize}
 \divider
 \cvevent{High School Dimploma}{Bharatiya Vidya Bhavans, Raipur}{April 2018 - May 2021}{}
 \begin{itemize}
-    \item 12th Grade: 96\% (Class Rank: 2 / 20)
-    \item English (99/100), Math (98/100), Biology (91/100), Physics (97/100), Chemistry (92/100), and Computer Science (99/100).
+    \item 12th Grade: 96\% | Class Rank: 2 / 20
 \end{itemize}
 
 \cvsection{Experience}
-\cvevent{Research Scientist}{Lab. of Medical Sciences, Imperial College London}{June 204 - Present}{}
+\cvevent{Research Scientist}{Lab. of Medical Sciences, MRC Imperial College London}{May 2024 - Jan 2025}{}
 \begin{itemize}
-    \item {Working with \href{https://lms.mrc.ac.uk/research-group/synthetic-biology/}{\textbf{Dr. Karen Sarkisyan}} on re-purposing large protein toxins to induce novel binding affinity for different targets. The aim is to design high affinity binders that bind with nano-molar affinity to specific transmembrane receptors in the guts of small insects like c. \textit{elegans}}.
-    \item {I fully designed the entire computational pipeline for generation and screening, from evaluating binding interfaces using specific PPI databases to generating new proteins (including backbones and sequences) with state-of-the-art diffusion models. This process included Rosetta-based relaxation and large-scale AlphaFold2-based screening, using metrics such as DockQ, iPTM, and iPAE.}
-    \item {I also developed the necessary MLOps infrastructure from the ground up, scaling throughput from $\approx$10 to >500 designs per day (each protein > 1,000 residues) by distributing inference across 4 HPC servers and approximately 40 GPUs.}
+    \item {Engineered novel, nanomolar-affinity binders for \textit{C. elegans} transmembrane receptors by re-purposing large protein toxins and designing new target-specific affinities. (\textit{In collaboration with} \href{https://lms.mrc.ac.uk/research-group/synthetic-biology/}{\textbf{Dr. Karen Sarkisyan}} \textit{and} \href{https://tierpsy.com/andre}{\textbf{Andre Brown}}.)}
+    \item {Designed the end-to-end computational pipeline for protein design and screening: evaluated binding interfaces using PPI databases, generated novel proteins (backbones and sequences) with state-of-the-art diffusion models (e.g., RFDiffusion), performed Rosetta relaxation, and conducted large-scale AlphaFold2 screening using metrics such as DockQ, iPTM, and iPAE.}
+    \item {Built MLOps infrastructure from the ground up, scaling in-silico throughput by \textbf{50x} (from $\sim$10 to $>$500 designs/day) via distributed asynchronous inference across four heterogeneous compute clusters ($>$40 GPUs).}
+    \item {Selected 10 designs for experimental validation by optimizing in-silico metrics (e.g., DockQ, iPTM) across a screening pool of $\approx$10K candidates.}
 \end{itemize}
 \divider
-\cvevent{Lead Data Scientist}{Paraswap.io}{May 2021 - June 2022}{}
+\cvevent{Lead Data Scientist}{Velora (formerly Paraswap.io)}{May 2021 - June 2022}{}
 \begin{itemize}
-    \item {Paraswap is the second largest multi-chain Decentralized Exchange aggregator for crypto-currencies. I worked as their lead data scientist primarily responsible for developing a public dashboard to aggregate Paraswap's statistics such as Users, Volume, and Fees along with other tasks.}
-    \item {The Dashboard indexes ~\$100M in daily volume across 6 blockchains and >\$55B in total volume. Public Dashboard: \href{https://www.paraswap.io/dashboard}{paraswap.io/dashboard}}
-    \item {Also developed multiple private dashboards to simulate blockchain transactions, used to make crucial decisions.}
+    \item {Built the public analytics pipeline and \href{https://dashboard.velora.xyz/public/dashboard/bb8b5007-ecc3-44e9-bdbe-b4b7a5273eb4}{\textbf{dashboard}} for \textbf{Velora}, the second-largest DEX aggregator, architecting a robust system indexing 33M+ transactions and \$140B+ in trading volume across 5 blockchains.}
+    \item {Co-led the upgrade of the full data infrastructure from Heroku to AWS, deploying a scalable Redshift + MongoDB warehouse to support low-latency querying, reliable ingestion, and long-term storage of high-volume on-chain data.}
+    \item {Developed internal dashboards powered by \href{https://tenderly.co/}{\textbf{Tenderly}} simulations to model transaction outcomes and MEV behavior, directly informing decisions on routing optimisation, onboarding new DEXs, and smart contract improvements.}
 \end{itemize}
 \divider
 \cvevent{Hackathon - The Gawler Challenge}{MineNow}{Apr 2020 - Jul 2020}{}
