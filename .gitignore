@@ -1,0 +1,44 @@
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.run.xml
+*.bcf
+
+# Editor/OS-specific
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Other
+*.pdf
+*.synctex(busy)*
+*.xdv
+
+# TexShop specific
+*.texpadtmp
+
+# Overleaf output
+output/
