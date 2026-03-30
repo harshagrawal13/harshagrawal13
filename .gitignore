@@ -33,7 +33,6 @@
 Thumbs.db
 
 # Other
-*.pdf
 !x-logo.pdf
 *.synctex(busy)*
 *.xdv
