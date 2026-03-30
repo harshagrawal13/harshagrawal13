@@ -58,30 +58,35 @@
         \dimexpr1pt-\baselineskip
     }
     \raggedright{
-        \cvsection{Personal Projects}
-        \cvevent{JESPR - Energy Based Modelling for Proteins}{}{  May 2023 - December 2023}{}
+        \cvsection{Education}
+        \cvevent{Masters in Engineering}{Imperial College London}{October 2022 - Present}{}
         \begin{itemize}
-            \item Devised and implemented a contrastive learning approach for the pre-training of foundational protein models, aimed at learning high-level semantic representations between sequence and structural spaces to facilitate bi-directional mapping.
-            \item Also implemented sharding, activation checkpointing, and other memory-saving techniques for scalable multi-GPU training of models with 500M+ parameters.
-            \item Currently evaluating zero-shot performance on protein function benchmarks such as solubility, stability, etc. (from \href{https://arxiv.org/abs/2206.02096}{arxiv.org/abs/2206.02096}).
+            \item Pursuing a Bachelor's + Master's (4 years) in Molecular Bioengineering. Fully sponsored by the RISE scholarship.
+            \item Recipient of the Department Scholarship of 1000 GBP per year.
+            \item Key modules include Advanced Synthetic Biology, Tissue Engineering, Biomaterials, Reinforcement Learning, Thermodynamics, etc.
+        \end{itemize}
+
+        \cvsection{Projects}
+        \cvevent{JESPR - Energy Based Modelling for Proteins}{May 2023 - Dec 2023}{}{}
+        \begin{itemize}
+            \item Contrastive pre-training of protein foundation models to learn sequence--structure representations enabling bi-directional mapping.
+            \item Implemented sharding and activation checkpointing for multi-GPU training of 500M+ parameter models.
             \item Code: \href{https://github.com/atom-51/jespr}{github.com/atom-51/jespr}
         \end{itemize}
 
         \divider
 
-        \cvevent{Cancer-eX - Detecting Pancreatic Cancer early}{}{Aug 2018 - August 2021}{}
+        \cvevent{Cancer-eX - Pancreatic Cancer Detection}{Aug 2018 - Aug 2021}{}{}
         \begin{itemize}
-            \item Studied a salivary biomarker to detect Pancreatic and other Gastrointestinal Cancers early and proposed a lateral flow assay-based system for early detection.
-            \item Designed and calibrated a competitive ELISA protocol from scratch. \textit{(The outcome was partially successful)}
-            \item Also Designed a simple Risk-assessment tool for Pancreatic Cancer using etiological risk factors by factoring their respective relative-risk (RR) values obtained via independent studies.
+            \item Identified a salivary biomarker for early detection of pancreatic and GI cancers; designed and calibrated a competitive ELISA protocol and lateral flow assay.
+            \item Built a risk-assessment tool using etiological risk factors weighted by relative-risk (RR) values from independent studies.
         \end{itemize}
 
         \divider
 
-        \cvevent{MineNow - The Gawler Challenge}{}{\\ Apr 2020 - Jul 2020}{}
+        \cvevent{MineNow - The Gawler Challenge}{Apr 2020 - Jul 2020}{}{}
         \begin{itemize}
-            \item The Gawler Challenge was a global online competition from the Government of South Australia to find mineralization using Machine Learning.
-            \item Created three separate machine learning models to predict novel mineralized sites in the Gawler region of South Australia using the existing geo-physical and geo-chemical data-sets. A total of ~300,000 new mineralized points were predicted along with their size and predicted ore/mineral.
+            \item Trained three ML models to predict $\sim$300K novel mineralized sites in South Australia using geo-physical and geo-chemical datasets.
             \item Code: \href{https://github.com/harshagrawal13/Gawler-Unearthed}{github.com/harshagrawal13/Gawler-Unearthed}
         \end{itemize}
 
@@ -93,8 +98,6 @@
 
             \cvitem{Global Teen Leader 2020}{Jan 2020}{Selected as one of the 35 teens all around the world by Three Dot Dash to participate at the Virtual Just Peace Summit 2020. Was part of a youth delegation to speak at the World Economic Forum 2024 in Davos, Switzerland.}
 
-            \cvitem{Gold Medal, Genius Olympiad}{June 2020}{Won in the category of sciences at one of the largest high-school interdisciplinary competitions. It witnessed participation from ~1600 exhibits from ~80 countries.}
-
             \cvitem{Regional Finalist, Google Science Fair}{May 2019}{Selected as one of the top 100 exhibits all around the world at the Google Science Fair.}
 
         \end{itemize}
@@ -102,32 +105,33 @@
     }
 }
 
-\cvsection{Education}
+\cvsection{Publications}
 
-\cvevent{Masters in Engineering}{Imperial College London}{October 2022 - Present}{}
+{\small\textbf{An Energy Landscape Approach to Miniaturizing Enzymes using Protein Language Model Embeddings}}\par
+\smallskip
+{\footnotesize bioRxiv: \href{https://doi.org/10.64898/2026.03.04.709378}{doi:10.64898/2026.03.04.709378} \hfill March 2026\par\smallskip
+\textit{J. L\'{a}la, H. Agrawal, F. Dong, J. Wells, S. Angioletti-Uberti.}\par\smallskip
 \begin{itemize}
-    \item Pursuing a Bachelor's + Master's (4 years) in Molecular Bioengineering. Fully sponsored by the RISE scholarship.
-    \item Recipient of the Department Scholarship of 1000 GBP per year.
-    \item Key modules include Advanced Synthetic Biology, Tissue Engineering, Biomaterials, Reinforcement Learning, Thermodynamics, etc.
-\end{itemize}
+    \item {Developed an AI-guided framework to miniaturize enzymes by sampling a protein language model (PLM) embedding energy landscape via Monte Carlo optimization (BAGEL), identifying maximally compact sequences that preserve catalytic site geometry --- without requiring any structural information.}
+    \item {Validated designs across four enzymes (PETase, subtilisin Carlsberg, Taq DNA polymerase, VioA) using a two-stage pipeline of deep-learning structure predictors (ESMFold, Chai-1, Boltz-2) and molecular dynamics simulations; top candidates achieved active-site RMSD $<$ 2 \AA{} and RMSF $<$ 1.0 \AA{} relative to wild-type. Open-sourced all generated sequences to accelerate experimental validation. \textit{Experimental validation underway.}}
+\end{itemize}}
 
 \cvsection{Experience}
 \cvevent{Research Scientist}{Softnanolab, Imperial College London}{Feb 2025 - Present}{}
 \begin{itemize}
-    \item {Preprint: J. Lala, H. Agrawal, F. Dong, J. Wells, S. Angioletti-Uberti. \textit{An Energy Landscape Approach to Miniaturizing Enzymes using Protein Language Model Embeddings}. bioRxiv, March 2026. \href{https://doi.org/10.64898/2026.03.04.709378}{doi:10.64898/2026.03.04.709378}}
     \item {Currently developing a Protein Language Model designed natively for protein complexes. This work is supported by a 10K B200 GPU-hour Isambard Grant (\href{https://blogs.nvidia.com/blog/isambard-ai/}{Isambard AI}) and a 16K A100 GPU-hour NVIDIA Grant, and is conducted under the supervision of \href{https://profiles.imperial.ac.uk/s.angioletti-uberti/about}{Dr. Stefano Angioletti Uberti}.}
     \item {Previously led the development of \textit{ecstasy}, an open-source, comprehensive benchmarking framework for multimeric structure prediction methods (AF3, Boltz2, ESMFold, \emph{et al.}), designed to assess robustness to chain-order permutations and consistency of predicted multimer assemblies.}
 \end{itemize}
 \divider
 \cvevent{Research Scientist}{Lab. of Medical Sciences, MRC Imperial College London}{May 2024 - Jan 2025}{}
 \begin{itemize}
-    \item {Engineered novel, nanomolar-affinity binders for \textit{C. elegans} transmembrane receptors by re-purposing large protein toxins and designing new target-specific affinities. (\textit{In collaboration with} \href{https://lms.mrc.ac.uk/research-group/synthetic-biology/}{Dr. Karen Sarkisyan} \textit{and} \href{https://tierpsy.com/andre}{Andre Brown}.)}
+    \item {Engineered novel, nanomolar-affinity binders for \textit{C. elegans} transmembrane receptors by repurposing large protein toxins and designing new target-specific affinities. (\textit{In collaboration with} \href{https://lms.mrc.ac.uk/research-group/synthetic-biology/}{Dr. Karen Sarkisyan} \textit{and} \href{https://tierpsy.com/andre}{Andre Brown}.)}
     \item {Designed the end-to-end computational pipeline for protein design and screening: evaluated binding interfaces using PPI databases, generated novel proteins (backbones and sequences) with state-of-the-art diffusion models (e.g., RFDiffusion), performed Rosetta relaxation, and conducted large-scale AlphaFold2 screening using metrics such as DockQ, iPTM, and iPAE.}
     \item {Built MLOps infrastructure from the ground up, scaling in-silico throughput by 50x (from $\sim$10 to $>$500 designs/day) via distributed asynchronous inference across four heterogeneous compute clusters ($>$40 GPUs).}
     \item {Selected 10 designs for experimental validation by optimizing in-silico metrics (e.g., DockQ, iPTM) across a screening pool of $\approx$10K candidates.}
 \end{itemize}
 \divider
-\cvevent{Lead Data Scientist}{Velora (formerly Paraswap.io)}{May 2021 - June 2022}{}
+\cvevent{Lead Data Scientist}{Velora.io (formerly Paraswap.io)}{May 2021 - June 2022}{}
 \begin{itemize}
     \item {Built the public analytics pipeline and \href{https://dashboard.velora.xyz/public/dashboard/bb8b5007-ecc3-44e9-bdbe-b4b7a5273eb4}{dashboard} for Velora, the second-largest DEX aggregator, architecting a robust system indexing 33M+ transactions and \$140B+ in trading volume across 5 blockchains.}
     \item {Co-led the upgrade of the full data infrastructure from Heroku to AWS, deploying a scalable Redshift + MongoDB warehouse to support low-latency querying, reliable ingestion, and long-term storage of high-volume on-chain data.}
